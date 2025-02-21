@@ -3,6 +3,11 @@ using LanguageExt;
 using LanguageExt.Common;
 using static LanguageExt.Prelude;
 
+/// <summary>
+/// 申請表
+/// </summary>
+/// <param name="PlateType">車種</param>
+/// <param name="PlateNo">車牌</param> 
 public record ApplyForm(string PlateType, string PlateNo);
 public class FpGuardExample
 {
